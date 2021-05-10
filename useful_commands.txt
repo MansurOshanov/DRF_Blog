@@ -1,1 +1,3 @@
 Set-ExecutionPolicy Unrestricted -Scope Process  /Give permission to enter venv
+
+coverage run --omit='*/venv/*' manage.py test
