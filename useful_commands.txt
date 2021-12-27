@@ -1,4 +1,5 @@
 Set-ExecutionPolicy Unrestricted -Scope Process  /Give permission to enter venv
+.\venv\Scripts\activate
 
 coverage run --omit='*/venv/*' manage.py test
 coverage html
