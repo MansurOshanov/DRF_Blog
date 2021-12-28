@@ -5,3 +5,5 @@ coverage run --omit='*/venv/*' manage.py test
 coverage html
 
 python manage.py runserver
+
+pip install djangorestframework-simplejwt
