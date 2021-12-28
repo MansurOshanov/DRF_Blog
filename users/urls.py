@@ -3,6 +3,6 @@ from .views import CustomUserCreate
 
 app_name = 'users'
 
-urlpattterns = [
+urlpatterns = [
     path('register/', CustomUserCreate.as_view(), name='create_user'),
 ]
